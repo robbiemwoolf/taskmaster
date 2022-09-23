@@ -1,0 +1,19 @@
+.btn {
+    font-size: x-large;
+}
+
+.text {
+    font-family: 'serif';
+}
+
+.metalfont {
+    font-family: 'metal lord'
+}
+
+.styled-background {
+    background-image: url('../../background/popup-bg-dark-skull-landscape.png');
+}
+
+.bg-gray {
+    background-color: rgba(0,0,0,.25);
+}

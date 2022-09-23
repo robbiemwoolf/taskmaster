@@ -8,7 +8,7 @@
         "url": "https://github.com/robbiemwoolf/taskmaster"
     },
     "scripts": {
-        "build": "npm -prefix front-end run build",
+        "build": "npm -prefix frontend run build",
         "preinstall": "cd ./backend && npm install",
         "install": "cd ./frontend && npm install",
         "start": "npx concurrently 'npm run start:backend' 'npm run start:frontend'",

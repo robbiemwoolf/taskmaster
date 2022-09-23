@@ -1,0 +1,6 @@
+.hr {
+    height: 32px;
+    opacity: 50%;
+    background-image: url('./hr.jpg');
+    max-width: 100vw;
+}

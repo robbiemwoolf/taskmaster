@@ -1,0 +1,8 @@
+.form-check-input:checked {
+    background-color: darkred;
+    border-color: darkred;
+}
+
+.container input:checked ~ input {
+    text-decoration: line-through
+}

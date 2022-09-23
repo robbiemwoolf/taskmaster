@@ -1,0 +1,38 @@
+.bg {
+    height: 651px;
+    background-image: url('./background/dark-skull-portrait.jpg');
+    background-size: 100% 100%;
+}
+
+@font-face {
+    font-family: 'metal lord';
+    src: url('./utils/fonts/heavyMetal.ttf');
+}
+
+.h3 {
+    color: white;
+    font-family: 'metal lord';
+    font-size: x-large;
+    vertical-align: middle; 
+}
+
+.metalfont {
+    font-family: 'metal lord'
+}
+
+.task {
+    color: white;
+    font-family: 'serif';
+    font-size: large;
+    vertical-align: middle;   
+}
+
+.checkbox {
+    vertical-align: middle;
+}
+
+@media only screen and (min-width: 480px) {
+    .bg {
+        background-image: url('./background/dark-skull-landscape.jpg');
+    }
+}

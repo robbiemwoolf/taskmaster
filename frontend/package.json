@@ -1,6 +1,6 @@
 {
   "name": "taskmaster-client-rw",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "engines": {
     "node": "16.15.0"
   },
@@ -42,7 +42,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "custom todo application",
+  "description": "task management system",
   "main": "src/index.js",
   "keywords": [],
   "author": "Robbie Woolf",

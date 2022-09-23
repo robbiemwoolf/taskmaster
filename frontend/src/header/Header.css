@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'metal lord';
+    src: url('../utils/fonts/heavyMetal.ttf');
+}
+
+@font-face {
+    font-family: 'skulls';
+    src: url('../utils/fonts/skulls.ttf');
+}
+
+.metal {
+    background-image: url('../background/metal-texture.jpg');
+}
+
+.metalfont {
+    font-family: 'metal lord';
+}
+
+/*size perfect for Tia's phone in landscape*/
+.skulls {
+    font-family: 'skulls';
+    font-size: 14vw;
+}
+
+.btn-block {
+    opacity: 70%;
+}

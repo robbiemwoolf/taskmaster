@@ -1,7 +1,30 @@
 {
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "knex": "^2.3.0",
-    "pg": "^8.8.0"
-  }
+    "name": "taskmaster",
+    "version": "1.0.0",
+    "description": "task management system",
+    "private": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/robbiemwoolf/taskmaster"
+    },
+    "scripts": {
+        "build": "npm -prefix front-end run build",
+        "preinstall": "cd ./backend && npm install",
+        "install": "cd ./frontend && npm install",
+        "start": "npx concurrently 'npm run start:backend' 'npm run start:frontend'",
+        "start:backend": "npm --prefix ./backend start",
+        "start:frontend": "npm --prefix ./frontend start",
+        "start:dev": "npx concurrently \"npm run start:dev --prefix ./backend\" \"npm start --prefix ./frontend\" "
+    },
+    "keywords": [],
+    "author": "Robbie Woolf",
+    "license": "UNLICENSED",
+    "dependencies": {
+        "bootstrap": "^5.2.1",
+        "express": "^4.18.1",
+        "morgan": "^1.10.0",
+        "npm": "^8.19.1",
+        "react-bootstrap": "^2.5.0",
+        "react-calendar": "^3.9.0"
+    }
 }

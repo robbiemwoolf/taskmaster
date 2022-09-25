@@ -1,5 +1,5 @@
 const asyncErrorBoundary = require('../errors/asyncErrorBoundary')
-const calendar = require('./calendar.service')
+const calendar = require('./completed.service')
 
 async function list(req, res) {
     const data = await calendar.list()

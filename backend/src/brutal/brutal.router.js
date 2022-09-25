@@ -5,7 +5,6 @@ const methodNotAllowed = require('../errors/methodNotAllowed')
 router
     .route("/archived")
     .get(controller.listArchived)
-    .post(controller.create)
     .all(methodNotAllowed)
 
 router

@@ -7,13 +7,12 @@ export default function Brutal() {
     const path = '/brutal'
     const initialFormState = {
         task_description: '',
-        complete_by: null,  // TODO: add this to the other pages as well
-        task_brutal: true,
+        complete_by: null,
         task_daily: false,
-        task_longterm: false,
-        task_archived_brutal: false,
-        task_archived_daily: false,
-        task_archived_longterm: false,
+        task_ritual: false,
+        task_brutal: true,
+        task_complete: false,
+        date_completed: null
     }
 
     return (

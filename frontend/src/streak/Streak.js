@@ -3,7 +3,7 @@ import { useState } from 'react'
 import './Streak.css'
 
 export default function Streak() {
-    const [date, setDate] = useState(new Date());
+    const [date, setDate] = useState(new Date())
 
     return (
         <div className='app'>

@@ -2,17 +2,17 @@ import Tasklist from "../utils/tasklist/Tasklist"
 import Line from "../utils/hr/Line"
 import Archived from "../utils/archived/Archived"
 
-export default function Dailies() {
-    const title = 'Daily Smashed'
-    const path = '/daily'
+export default function Daily() {
+    const title = 'Daily Destroyed'
+    const path = '/'
     const initialFormState = {
         task_description: '',
+        complete_by: null,
         task_daily: true,
+        task_ritual: false,
         task_brutal: false,
-        task_longterm: false,
-        task_archived_brutal: false,
-        task_archived_daily: false,
-        task_archived_longterm: false,
+        task_complete: false,
+        date_completed: null
     }
 
     return (

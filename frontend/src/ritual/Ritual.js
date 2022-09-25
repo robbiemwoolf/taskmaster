@@ -2,17 +2,17 @@ import Tasklist from "../utils/tasklist/Tasklist"
 import Line from "../utils/hr/Line"
 import Archived from "../utils/archived/Archived"
 
-export default function LongTerm() {
-    const title = 'Long Term Smashed'
-    const path = '/longterm'
+export default function Ritual() {
+    const title = 'Rituals Completed'
+    const path = '/ritual'
     const initialFormState = {
         task_description: '',
-        task_longterm: true,
+        complete_by: null,
         task_daily: false,
+        task_ritual: true,
         task_brutal: false,
-        task_archived_brutal: false,
-        task_archived_daily: false,
-        task_archived_longterm: false,
+        task_complete: false,
+        date_completed: null
     }
 
     return (

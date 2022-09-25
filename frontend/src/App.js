@@ -2,9 +2,9 @@ import './App.css'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Header from './header/Header'
 import Brutal from './brutal/Brutal'
-import Dailies from './dailies/Dailies'
-import LongTerm from './long-term/LongTerm'
-import Streak from './calendar/Streak'
+import Ritual from './ritual/Ritual'
+import Daily from './daily/Daily'
+import Streak from './streak/Streak'
 
 function App() {
 
@@ -14,13 +14,13 @@ function App() {
       <div className='bg'>
         <Switch>
           <Route exact path='/'>
+            <Daily />
+          </Route>
+          <Route path='/ritual'>
+            <Ritual />
+          </Route>
+          <Route path='/brutal'>
             <Brutal />
-          </Route>
-          <Route path='/daily'>
-            <Dailies />
-          </Route>
-          <Route path='/longterm'>
-            <LongTerm />
           </Route>
           <Route path='/streak'>
             <Streak />
@@ -31,4 +31,4 @@ function App() {
   )
 }
 
-export default App;
+export default App

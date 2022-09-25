@@ -52,5 +52,14 @@ module.exports = [
         task_brutal: true,
         task_complete: true,
         date_completed: "2022-09-10"
-    }
+    },
+    {
+        task_description: "example completed daily task two",
+        complete_by: null,
+        task_daily: true,
+        task_habit: false,
+        task_brutal: false,
+        task_complete: true,
+        date_completed: "2022-09-07"
+    },
 ]

@@ -4,7 +4,7 @@ import Archived from "../utils/archived/Archived"
 
 export default function Daily() {
     const title = 'Daily Destroyed'
-    const path = '/'
+    const path = '/daily'
     const initialFormState = {
         task_description: '',
         complete_by: null,

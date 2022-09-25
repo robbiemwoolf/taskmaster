@@ -2,6 +2,7 @@ exports.up = function(knex) {
     return knex.schema.createTable('task', (table) => {
         table.increments('supplier_id').primary()
         table.string('task_description').notNullable()
+        table.date('complete_by')
         table.boolean('task_archived_brutal')
         table.boolean('task_brutal')
         table.boolean('task_archived_daily')

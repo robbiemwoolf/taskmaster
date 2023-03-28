@@ -7,7 +7,7 @@ import './PopUp.css'
 const url = process.env.REACT_APP_API_BASE_URL
 
 export default function PopUp(props) {
-
+    
     const [formData, setFormData] = useState({...props.initial})
 
     const handleChange = ({ target }) => {
@@ -15,6 +15,7 @@ export default function PopUp(props) {
     }
 
     const handleSubmit = (event) => {
+        console.log('props:', props)
       props.setModalShow(false)
       axios.post(`${url}${props.path}`, { "data": [formData] }, {headers:{"Content-Type" : "application/json; charset=utf-8" }})
           .then((response) => console.log('Data send'))
@@ -33,7 +34,7 @@ export default function PopUp(props) {
           <Modal.Title id="contained-modal-title-vcenter" className="text">
             Add Tasks
           </Modal.Title>
-          <CloseButton onClick={() => props.setModalShow(false)}/>
+          <CloseButton onClick={() => props.setmodalshow(false)}/>
         </Modal.Header>
         <Modal.Body className="styled-background">
           <form className='text-center text'>

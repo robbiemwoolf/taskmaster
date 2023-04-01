@@ -21,6 +21,9 @@ export default function Archived({path, title}) {
     }, [path])
     
     const output = data.map((item, key) => {
+        if (!item) {
+            return null;
+        }
         return (
             <li key={key} className='task mx-5'>
                 {item}

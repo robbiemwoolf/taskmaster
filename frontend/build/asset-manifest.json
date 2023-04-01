@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.fbe9e53b.css",
+    "main.js": "/static/js/main.8f317b33.js",
+    "static/media/skulls.ttf": "/static/media/skulls.a340cd905fb7806ee111.ttf",
+    "static/media/popup-bg-dark-skull-landscape.png": "/static/media/popup-bg-dark-skull-landscape.27564160709b64abede2.png",
+    "static/media/dark-skull-portrait.jpg": "/static/media/dark-skull-portrait.6d3a45b90a5835888b03.jpg",
+    "static/media/metal-texture.jpg": "/static/media/metal-texture.574666e98a72880c7eb6.jpg",
+    "static/media/dark-skull-landscape.jpg": "/static/media/dark-skull-landscape.53ea5230029b5515cda7.jpg",
+    "static/media/heavyMetal.ttf": "/static/media/heavyMetal.bc9b67e2e6460c84b6c5.ttf",
+    "static/media/hr.jpg": "/static/media/hr.6ab5c8a4fc88e20b0fea.jpg",
+    "index.html": "/index.html",
+    "main.fbe9e53b.css.map": "/static/css/main.fbe9e53b.css.map",
+    "main.8f317b33.js.map": "/static/js/main.8f317b33.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbe9e53b.css",
+    "static/js/main.8f317b33.js"
+  ]
+}

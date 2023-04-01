@@ -1,7 +1,10 @@
 import './TaskLayout.css'
 
 export default function TaskLayout({task}) {
-    return (
+    if (!task) {
+        return null;
+    } else {
+        return (
         <ul className='pt-3'>
             <li className='container'>
                 <label className='form-check-label task' htmlFor='checktask'>
@@ -10,5 +13,5 @@ export default function TaskLayout({task}) {
                 </label>
             </li>
         </ul>
-    )
+    )}
 }

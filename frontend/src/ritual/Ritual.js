@@ -4,7 +4,7 @@ import Archived from "../utils/archived/Archived"
 
 export default function Ritual() {
     const title = 'Rituals Completed'
-    const path = '/ritual'
+    const path = '/longterm'
     const initialFormState = {
         task_description: '',
         complete_by: null,
